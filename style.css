@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+
+.hidden {
+  position: absolute;
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+}
+
+div {
+  position: absolute;
+  right: 1.5%;
+  margin-top: 1%;
+  font-size: 2em;
+  z-index: 1;
+  color: yellow;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+button {
+  color:red;
+  font-weight: bold;
+}
+
+#clock {
+  position: absolute;
+  z-index: 1;
+  left: 38.5%;
+  top: 3.5em;
+  color: white;
+  font-size: 4.5em;
+}
+
+#login-form {
+  position: absolute;
+  z-index: 1;
+  left:45%;
+  margin-top:35%;
+  font-size: 1.2em;
+}
+
+#todo-form input {
+  position: absolute;
+  z-index: 1;
+  left: 1.5%;
+  margin-top: 1.5%;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+#todo-list {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5%;
+  color: azure;
+  text-justify: auto;
+  font-size: 1.3em;
+  line-height: 2;
+  
+}
+
+h1 {
+  position: absolute;
+  z-index: 1;
+  left:45%;
+  margin-top:35%;
+  color: aliceblue;
+}
+
